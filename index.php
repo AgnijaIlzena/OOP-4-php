@@ -10,6 +10,6 @@ $volga->setCurrentSpeed(10);
 $volga->setHasParkBrake(true);
 echo "Volga's ParkBreak is" . $volga->setParkBrake(). ' !' .PHP_EOL;
 echo 'Volga starts driving. ' . $volga->start() .PHP_EOL;
-
+echo "Volga's ParkBreak is" . $volga->setParkBrake(). ' !' .PHP_EOL;
 
 

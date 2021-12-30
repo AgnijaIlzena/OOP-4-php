@@ -41,7 +41,7 @@ class Car
             return null;
         }
     } catch (Exception $e){
-        return ' Your PARK BREAK is ACTIVE !' .PHP_EOL;
+        return  $this->setHasParkBrake(false) . ' DESACTIVATION of park break !' .PHP_EOL;
     } finally {
         echo  'Ma voiture roule comme un donut.' .PHP_EOL;
     }
